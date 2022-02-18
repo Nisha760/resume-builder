@@ -1,0 +1,23 @@
+.navBar{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #d6d7ec;
+
+}
+
+.navBar>*{
+    margin: 0 20px;
+}
+
+.navBar a{
+    text-decoration: none;
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    margin: 30px 0;
+}

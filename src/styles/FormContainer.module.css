@@ -1,0 +1,97 @@
+.formWrapper{
+    background-color: white;
+    box-shadow: 0 0 10px 0 var(--medium-grey);
+    width: 50vw;
+    padding: 40px;
+    border-radius: 5px;
+}
+
+.header{
+    /* background-color: aqua; */
+    text-align: center;
+    color: rgb(29, 19, 19);
+    letter-spacing: 0.5px;
+    word-spacing: 2px;
+}
+
+.header>div:nth-child(1)
+{
+    font-size: 32px;
+    font-weight: 700; 
+}
+
+.header>div:nth-child(2)
+{
+    margin-top: 8px;
+    margin-bottom: 30px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+
+
+.formContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: stretch; */
+}
+
+.formContainer>.inputText{
+    width: 100%;
+}
+
+
+.inputText>label{
+    display: block;
+    font-weight: 100;
+    margin-bottom: 5px;
+    color: rgb(29, 19, 19);;
+}
+
+.inputText>input[type="text"]{
+    width: 100%;
+    height: 40px;
+    padding: 0 10px;
+    border: 1px solid var(--light-grey);
+    border-radius: 3px; 
+    margin-bottom: 20px;
+}
+
+.inputText>input[type="text"]:focus{
+    border: 1px solid #a2a5dc;
+    box-shadow: 0 0 10px 0 #dfe0fb;
+    outline: none;
+    border-radius: 3px;
+}
+
+.twoInput{
+    width: 100%;
+    display: flex ;
+    justify-content: space-between;
+}
+
+.secondLabel{
+    visibility: hidden;
+}
+
+.twoInput>.inputText{
+    width: 47% ;
+}
+
+.submitButton{
+    width: fit-content;
+    height: 45px;
+    background-color: #a2a5dc;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 20px;
+    transition: all 0.2s ease;
+    padding: 0 40px;
+    margin-top: 40px;
+}
+
+.submitButton:hover{
+    background-color: #aeb1ec;
+}
