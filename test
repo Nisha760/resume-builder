@@ -1,0 +1,20 @@
+// if(skillRef.current.value !== ''){
+    //   setSkills(prev=>{
+    //     let curr = {...prev, index: ++index} ;
+    //     curr.skillsArr.push({
+    //       key: index,
+    //       value: skillRef.current.value
+    //     })
+    //     console.log(curr) ;
+    //     return curr ;
+    //   })
+    // }
+
+
+     // useEffect(() => {
+  //   skillRef.current.value = '' ;
+  //   dispatch({
+  //     type: addSkillAction(),
+  //     payload: skillRef.current.value
+  //   })
+  // }, [skills])

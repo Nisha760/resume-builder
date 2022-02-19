@@ -1,0 +1,19 @@
+.delete{
+    position: absolute;
+    right: 2px;
+    bottom: 25px;
+}
+.delete>*{
+    font-size: 22px;
+}
+
+.skill{
+    height: 40px;
+    width: 100%;
+    padding: 8px 30px;
+    text-align: center;
+    background-color: rgb(223, 224, 251, 0.5);
+    border-radius: 3px;
+    border: 1px solid #a2a5dc;
+    margin-bottom: 20px;
+}

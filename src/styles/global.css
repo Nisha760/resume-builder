@@ -30,6 +30,7 @@ html, body, #root{
     box-shadow: 0 0 10px 1px var(--light-grey);
     display: flex;
     align-items: center;
+    z-index: 2;
 }
 
 .footer{
@@ -46,6 +47,21 @@ html, body, #root{
     height: fit-content;
     width: 100%;
     margin-top: 60px;
-    padding-bottom: 40px;
+    padding-bottom: 300px;
 }
+
+
+::-webkit-input-placeholder { /* Edge */
+    color: var(--light-grey);
+  }
+  
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: var(--light-grey);
+  }
+  
+  ::placeholder {
+    color: var(--light-grey);
+    font-size: 14px;
+  }
+
 

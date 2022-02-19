@@ -4,11 +4,15 @@ import Options from './Options';
 
 
 //styles from FormContainer.module.css
-function Select({ optionsArray, title, name }) {
+function Select({ optionsArray, title, name, setValue }) {
     const [optionState, toggleOptions] = useState(false);
     const [selectedOption, setSelectOption] = useState(null);
 
+    useEffect(()=>{
 
+        if(selectedOption !== null)
+            setValue(selectedOption) ;
+    }, [selectedOption])
     const handleToggleOptions = () => {
         toggleOptions((prev) => !prev);
         console.log(name) ;

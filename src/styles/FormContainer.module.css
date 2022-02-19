@@ -23,7 +23,7 @@
 .header>div:nth-child(2)
 {
     margin-top: 8px;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
     font-size: 18px;
     font-weight: 500;
 }
@@ -82,7 +82,7 @@
 .submitButton{
     width: fit-content;
     height: 45px;
-    background-color: #a2a5dc;
+    background-color: #6165af;
     border: none;
     border-radius: 5px;
     color: white;
@@ -90,8 +90,55 @@
     transition: all 0.2s ease;
     padding: 0 40px;
     margin-top: 40px;
+    cursor: pointer;
 }
 
 .submitButton:hover{
-    background-color: #aeb1ec;
+    background-color: #8285c0;
 }
+
+
+.inputText.skills{
+    position: relative;
+}
+
+.inputText.addSkill{
+    margin-top: 40px;
+}
+
+.addSkillButton{
+    height: 30px;
+    width: fit-content;
+    padding: 0 20px;
+    background-color: white;
+    color: #535799;
+    border: 1px solid #a2a5dc;
+    border-radius: 3px;
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+    outline: none;
+}
+
+.addSkillButton:hover{
+    background-color: #a2a5dc;
+    color: white;
+}
+
+.addSkillButton:focus{
+    outline: none;
+}
+
+textarea{
+    height: 250px ;
+    width: 100%;
+    resize: none;
+    border-radius: 3px;
+    outline: none;
+    padding: 10px;
+}
+
+textarea:focus{
+    outline: none;
+}
+
+
